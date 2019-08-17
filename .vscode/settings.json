@@ -1,0 +1,5 @@
+{
+    "python.pythonPath": "c:\\Users\\KEI\\Documents\\styleGAN_API\\styleGAN\\Scripts\\python.exe",
+    "git.ignoreLimitWarning": true,
+    "python.formatting.provider": "black"
+}
