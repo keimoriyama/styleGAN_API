@@ -1,9 +1,9 @@
 from flask import Flask, send_from_directory, request
 from styleGAN import generate_cat_fugure
 import os
-
+from flask_cors import CORS
 app = Flask(__name__)
-
+CORS(app,resources={r"/*":{"origins":"*"}})
 
 @app.route('/')
 def test():
@@ -23,5 +23,4 @@ def index(color, variety, hair_length):
 
 
 if __name__ == "__main__":
-    app.run(debug=False, threaded=False, host="0.0.0.0",
-            port=int(os.environ.get("PORT", 5000)))
+    app.run(host='0.0.0.0',debug=False, threaded=False)
