@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\KEI\\Anaconda3\\python.exe",
+    "python.pythonPath": "C:\\Users\\KEI\\Anaconda3\\envs\\styleGAN\\python.exe",
     "git.ignoreLimitWarning": true,
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "autopep8"
 }
